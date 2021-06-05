@@ -4,18 +4,21 @@
   <div id="tables">
     <Users />
     <Rates />
+    <UkEnergy />
   </div>
 </template>
 
 <script>
 import Rates from './components/CryptoPrices.vue'
 import Users from './components/Users.vue'
+import UkEnergy from './components/UkEnergyMix.vue'
 
 export default {
   name: 'Tables',
   components: {
     Rates,
-    Users
+    Users,
+    UkEnergy
   }
 }
 </script>
